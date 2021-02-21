@@ -133,16 +133,18 @@ CHOOSE A CREW MEMBER
 &lt;&lt;set $character = &quot;Fi&quot;&gt;&gt;
 &lt;/nobr&gt;
 - Standing in the crevace between two peaks of a mountain, practicing physical combat with 6 opponents. One sun is setting in the south as another rises in the west. Orange-red sky and no clouds. Black sand.
-- The mountain begins shaking below you 
+- The mountain begins shaking below you. You take a knee and the 6 opponents circle you and cover you in a circle as heavy ash begins to fall from the sky.
 
-[[Negative Choice|ch1_030C1_stasis_fi]]
-[[Positive Choice|ch1_030C2_stasis_fi]]</tw-passagedata><tw-passagedata pid="5" name="ch1_020D_stasis_raven" tags="" position="900,200" size="200,100">&lt;nobr&gt;
+[[Run Down Mountainside|ch1_030C1_stasis_fi]]
+[[Stay Where You Are|ch1_030C2_stasis_fi]]</tw-passagedata><tw-passagedata pid="5" name="ch1_020D_stasis_raven" tags="" position="900,200" size="200,100">&lt;nobr&gt;
 &lt;&lt;set $character = &quot;Raven&quot;&gt;&gt;
 &lt;/nobr&gt;
 - Running through a never ending field of grass into the night sky. Shooting stars. What are you chasing?
+- You see the shape of a bear that runs ahead, towards the edge of a cliff.
+- The bear stops, turns around, and looks at you.
 
-[[Positive Choice|ch1_030D1_stasis_raven]]
-[[Negative Choice|ch1_030D2_stasis_raven]]</tw-passagedata><tw-passagedata pid="6" name="ch1_030A1_stasis_pae" tags="" position="100,325" size="100,100">Turning to run towards the tone behind you, you look back over your shoulder to catch one last glimpse of the forest behind you. The leaves change suddenly to a bright shade of pink as the trees disappear into a bright white fog.
+[[Approach The Bear|ch1_030D1_stasis_raven]]
+[[Run Away|ch1_030D2_stasis_raven]]</tw-passagedata><tw-passagedata pid="6" name="ch1_030A1_stasis_pae" tags="" position="100,325" size="100,100">Turning to run towards the tone behind you, you look back over your shoulder to catch one last glimpse of the forest behind you. The leaves change suddenly to a bright shade of pink as the trees disappear into a bright white fog.
 
 There&#39;s a warmth to the atmosphere as the fog quickly catches up to you and fills the field you&#39;re running across. You can&#39;t see anything around you anymore, but you feel your body lifting off the ground.
 
@@ -160,11 +162,18 @@ You hear a voice beginning to call your name.
 
 [[Wake Up|ch1_040A2_wake_pae]]</tw-passagedata><tw-passagedata pid="8" name="StoryInit" tags="" position="400,50" size="100,100">&lt;&lt;set $character = &quot;&quot;&gt;&gt;</tw-passagedata><tw-passagedata pid="9" name="ch1_040A1_wake_pae" tags="" position="100,450" size="100,100">Pae is the first to awake...
 
+- It takes time to wake someone, so you need to pick someone next...
+- Desc the relative strengths of each crewmate in relation to this situation
+
 [[Wake Mandel|ch1_050A_detection]]
 [[Wake Fi|ch1_050E_detection]]
-[[Wake Raven|ch1_050F_detection]]</tw-passagedata><tw-passagedata pid="10" name="ch1_040A2_wake_pae" tags="" position="225,450" size="100,100">Pae is woken by Mandel...
+[[Wake Raven|ch1_050F_detection]]</tw-passagedata><tw-passagedata pid="10" name="ch1_040A2_wake_pae" tags="" position="225,450" size="100,100">Your eyes open suddenly as you&#39;re gasping for breath. The gel of your stasis pod has just begun emptying, so you get a mouth full of gross.
 
-[[ch1_050B_detection]]</tw-passagedata><tw-passagedata pid="11" name="ch1_030B1_stasis_mandel" tags="" position="500,325" size="100,100">Positive Choice
+Mandel is in front of you calling your name.
+
+You struggle to get the bindings off your arms and legs.
+
+[[Let Mandel Help You|ch1_050B_detection]]</tw-passagedata><tw-passagedata pid="11" name="ch1_030B1_stasis_mandel" tags="" position="500,325" size="100,100">Positive Choice
 
 - Floating above the water as a whirlpool forms below you.
 - Skin on arms and legs begin to shimmer and reflect like diamonds. The sky changes a multitude of colors as it turns to an infinitely bright 
@@ -180,22 +189,37 @@ You hear a voice calling your name.
 
 [[ch1_050B_detection]]</tw-passagedata><tw-passagedata pid="14" name="ch1_040B2_wake_mandel" tags="" position="375,450" size="100,100">Mandel is woken by Pae...
 
-[[ch1_050A_detection]]</tw-passagedata><tw-passagedata pid="15" name="ch1_050A_detection" tags="" position="225,575" size="100,100">Pae woke first and senses approaching ship. She seeks Mandels advice.
+- Desc of wake up sequence for Mandel
+- Pae has questions about what to do; she seems freaked out.
+
+[[Respond to Pae|ch1_050A_detection]]</tw-passagedata><tw-passagedata pid="15" name="ch1_050A_detection" tags="" position="225,575" size="100,100">Pae woke first and senses approaching ship. 
+
+- Desc of what Pae thinks about Mandel and why she chose her first.
+
+She seeks Mandels advice.
 
 [[Run a Systems Scan|ch1_060C_detection_scan]]</tw-passagedata><tw-passagedata pid="16" name="ch1_050B_detection" tags="" position="375,575" size="100,100">Mandel wakes first and sees that Pae is experiencing a nightmare. Pae struggles to get out of stasis pod and is angry.
 
 Sound of alarm going off drives her mad and she smashes it off.
 
 [[Wake the others|ch1_060B_detection_wake]]
-[[Run a Systems Scan|ch1_060C_detection_scan]]</tw-passagedata><tw-passagedata pid="17" name="ch1_030C1_stasis_fi" tags="" position="650,325" size="100,100">Negative Choice
+[[Run a Systems Scan|ch1_060C_detection_scan]]</tw-passagedata><tw-passagedata pid="17" name="ch1_030C1_stasis_fi" tags="" position="650,325" size="100,100">As you run down the mountainside, the center opens up and explodes as a volcano.
+
+Your foot gets stuck in a crevace and you&#39;re surrounded by lava that traps you under a thick layer of magmic rock.
 
 You hear a voice calling your name.
 
-[[Wake Up|ch1_040C2_wake_fi]]</tw-passagedata><tw-passagedata pid="18" name="ch1_030C2_stasis_fi" tags="" position="775,325" size="100,100">Positive Choice
+[[Wake Up|ch1_040C2_wake_fi]]</tw-passagedata><tw-passagedata pid="18" name="ch1_030C2_stasis_fi" tags="" position="775,325" size="100,100">The ground around you falls away and you&#39;re surrounded by a hot white steam that blocks everything from view except the sky above.
+
+4 of the combatants hoist you up by your arms and legs towards the sky, while the other 2 begin ringing bells rapidly.
+
+You know these are the signs. You need to wake up from stasis.
 
 [[Wake Up|ch1_040C1_wake_fi]]</tw-passagedata><tw-passagedata pid="19" name="ch1_040C2_wake_fi" tags="" position="650,450" size="100,100">Fi is woken by Raven...
 
 [[ch1_050C_detection]]</tw-passagedata><tw-passagedata pid="20" name="ch1_050C_detection" tags="" position="775,575" size="100,100">Raven woke first and then woke Fi.
+
+- Desc of what Raven thinks about Fi and why she chose her first.
 
 [[Wake the others|ch1_060B_detection_wake]]
 [[Run a Systems Scan|ch1_060C_detection_scan]]</tw-passagedata><tw-passagedata pid="21" name="ch1_040C1_wake_fi" tags="" position="775,450" size="100,100">Fi wakes first and then...
@@ -203,36 +227,55 @@ You hear a voice calling your name.
 [[Wake Raven|ch1_050D_detection]]
 [[Scan Region|ch1_050H_detection]]</tw-passagedata><tw-passagedata pid="22" name="ch1_050D_detection" tags="" position="925,575" size="100,100">Fi woke first and then wakes Raven.
 
+- Desc of what Fi thinks about Raven and why she chose her first.
+- Disable the alarm noise
+
 [[Wake the others|ch1_060B_detection_wake]]
-[[Run a Systems Scan|ch1_060C_detection_scan]]</tw-passagedata><tw-passagedata pid="23" name="ch1_030D1_stasis_raven" tags="" position="925,325" size="100,100">Positive Choice
+[[Run a Systems Scan|ch1_060C_detection_scan]]</tw-passagedata><tw-passagedata pid="23" name="ch1_030D1_stasis_raven" tags="" position="925,325" size="100,100">As you approach, the bear lowers its side to you.
 
-[[ch1_040D1_wake_raven]]</tw-passagedata><tw-passagedata pid="24" name="ch1_030D2_stasis_raven" tags="" position="1050,325" size="100,100">Negative Choice
+You climb on its back, gripping into its neck fur with your hands and wrapping your legs tightly around its torso.
 
-You hear a voice calling your name.
+The bear turns towards the cliffs edge and leaps outwards into the air. You rise in a high arc towards the sky before falling towards the ocean below.
 
-[[ch1_040D2_wake_raven]]</tw-passagedata><tw-passagedata pid="25" name="ch1_040D1_wake_raven" tags="" position="925,450" size="100,100">Raven wakes first and then...
+As you hit the water everything turns black and you hear a bell ringing in your ears. You know this sound from stasis training --
+
+[[Wake Up|ch1_040D1_wake_raven]]</tw-passagedata><tw-passagedata pid="24" name="ch1_030D2_stasis_raven" tags="" position="1050,325" size="100,100">The bear chases after you and pins you down to the ground, roaring out. 
+
+As you pass out, you hear a voice calling your name over and over.
+
+[[Wake Up|ch1_040D2_wake_raven]]</tw-passagedata><tw-passagedata pid="25" name="ch1_040D1_wake_raven" tags="" position="925,450" size="100,100">Raven wakes first and then...
 
 [[Wake Fi|ch1_050C_detection]]
 [[Check Alarm Logs|ch1_050G_detection]]</tw-passagedata><tw-passagedata pid="26" name="ch1_040D2_wake_raven" tags="" position="1050,450" size="100,100">Fi wakes first and then she wakes Raven.
 
 [[ch1_050D_detection]]</tw-passagedata><tw-passagedata pid="27" name="ch1_050E_detection" tags="" position="500,575" size="100,100">Pae wakes Fi...
 
+- Desc of what Pae thinks about Fi and why she chose her first.
+
 [[Scan Region|ch1_060A_detection]]
 [[Wake the others|ch1_060B_detection_wake]]</tw-passagedata><tw-passagedata pid="28" name="ch1_050F_detection" tags="" position="100,575" size="100,100">Pae wakes Raven...
+
+- Desc of what Pae thinks about Raven and why she chose her first.
 
 [[Wake the others|ch1_060B_detection_wake]]</tw-passagedata><tw-passagedata pid="29" name="ch1_060A_detection" tags="" position="225,700" size="100,100">Fi fires up the engines...
 
 Description of solar system and a potential planet to hide behind nearby.
 
 [[Fly to nearby planet|ch1_070A_evade_planet]]
-[[Move closer to star|ch1_070B_evade_star]]</tw-passagedata><tw-passagedata pid="30" name="ch1_070A_evade_planet" tags="" position="400,825" size="100,100">Go to Planet... followed...
+[[Move closer to star|ch1_070B_evade_star]]</tw-passagedata><tw-passagedata pid="30" name="ch1_070A_evade_planet" tags="" position="400,825" size="100,100">Go to Planet... you&#39;re followed...
 
+- Description of Planet
+- Description of Satellites
 
+[[Attempt to Land on Planet|ch1_080B2_landing]]
+[[Send Message to Satellites|ch1_080B1_satellites]]</tw-passagedata><tw-passagedata pid="31" name="ch1_070B_evade_star" tags="" position="225,825" size="100,100">Get closer to Star...
 
-[[ch1_080B2_landing]]
-[[ch1_080B1_satellites]]</tw-passagedata><tw-passagedata pid="31" name="ch1_070B_evade_star" tags="" position="225,825" size="100,100">Get closer to Star...
+If you can cross to the star&#39;s northern pole, there&#39;s a field of radiation that may protect you.
 
-[[Dodge solar flares|ch1_080C1_solar_flare]]
+The more you move around the star, the more you risk getting hit by a solar flare.
+
+[[Stay Where You Are|ch1_080C2_star_stay]]
+[[Head to Northern Pole|ch1_080C1_solar_flare]]
 </tw-passagedata><tw-passagedata pid="32" name="ch1_060B_detection_wake" tags="" position="400,700" size="100,100">Wake the others.
 
 As you&#39;re waking others you&#39;re fired upon and several systems are disabled.
@@ -241,85 +284,105 @@ Pae runs a full systems scan, Fi kicks up the engines and evades further shots.
 
 Raven and Mandel:
 
-[[ch1_070E_hull_integrity]]
-[[ch1_100E_hull_buckle]]</tw-passagedata><tw-passagedata pid="33" name="ch1_060C_detection_scan" tags="" position="575,700" size="100,100">Run a Systems Scan
+[[Fix Hull Integrity|ch1_070E_hull_integrity]]
+[[Fix Oxygen|ch1_100E_hull_buckle]]</tw-passagedata><tw-passagedata pid="33" name="ch1_060C_detection_scan" tags="" position="575,700" size="100,100">Run a Systems Scan
+
+Your ship is only partially charged from the star and doesn&#39;t have enough power to jump to the next star system.
+
+The cluster ship seems very mechanical, so you can try disabling all of your systems to avoid detection.
 
 [[Try contacting the approaching Ship|ch1_070C_contact]]
 [[Disable Systems|ch1_070D_disable_systems]] </tw-passagedata><tw-passagedata pid="34" name="ch1_050G_detection" tags="" position="1050,575" size="100,100">Check alarm logs...
 
+There&#39;s a large ship rapidly approaching your position.
+
 [[Charge Ship Cloaking|ch1_060D_detection_cloak]]
-[[Charge Weapons|ch1_060E_detection_weapons]]</tw-passagedata><tw-passagedata pid="35" name="ch1_100A_attacked" tags="" position="950,1200" size="100,100">Other ship attacks you as you fire at it. You die.
+[[Charge Weapons|ch1_060E_detection_weapons]]</tw-passagedata><tw-passagedata pid="35" name="ch1_100A_attacked" tags="" position="975,1200" size="100,100">Other ship attacks you as you fire at it. You die.
 
-[[ch_110_ending]]</tw-passagedata><tw-passagedata pid="36" name="ch1_100B_burn_up" tags="" position="200,1200" size="100,100">You didn&#39;t get away from the sun soon enough and are experiencing systems failure. You die.
+[[END OF CHAPTER|ch_110_ending]]</tw-passagedata><tw-passagedata pid="36" name="ch1_100B_burn_up" tags="" position="225,1200" size="100,100">You didn&#39;t get away from the sun soon enough and are experiencing systems failure. You die.
 
-[[ch_110_ending]]</tw-passagedata><tw-passagedata pid="37" name="ch1_100C_surrounded" tags="" position="700,1200" size="100,100">The cluster ship envelops yours, morphing around you so that you&#39;re now inside their ship.
+[[END OF CHAPTER|ch_110_ending]]</tw-passagedata><tw-passagedata pid="37" name="ch1_100C_surrounded" tags="" position="725,1200" size="100,100">(Main Chapter exit. Dynamic text goes here depending on where you arrived from.)
 
-[[ch_110_ending]]</tw-passagedata><tw-passagedata pid="38" name="ch1_060D_detection_cloak" tags="" position="750,700" size="100,100">Charge ship cloaking... cloak ship.
+The cluster ship envelops yours, morphing around you so that you&#39;re now inside their ship.
 
-Cluster still moving towards you...
+[[END OF CHAPTER|ch_110_ending]]</tw-passagedata><tw-passagedata pid="38" name="ch1_060D_detection_cloak" tags="" position="750,700" size="100,100">Charge ship cloaking... cloak ship.
+
+Cluster still moving towards you... it seems the cloak isn&#39;t enough. Maybe they&#39;re detecting your head signatures?
+
+You could try disabling your other systems and see if that helps evade detection.
 
 [[Try contacting the approaching Ship|ch1_070C_contact]]
 [[Disable Systems|ch1_070D_disable_systems]] </tw-passagedata><tw-passagedata pid="39" name="ch1_060E_detection_weapons" tags="" position="925,700" size="100,100">Charge weapons...
 
+- Description of weapons
+- They&#39;re going to take a while to charge...
+
 [[Try contacting the approaching Ship|ch1_070C_contact]]</tw-passagedata><tw-passagedata pid="40" name="ch1_050H_detection" tags="" position="650,575" size="100,100">Approaching ship detected...
+
+- Description of the cluster ship
 
 [[Fire Up Engines|ch1_060A_detection]]
 [[Charge Weapons|ch1_060E_detection_weapons]]
 [[Charge Ship Cloaking|ch1_060D_detection_cloak]]</tw-passagedata><tw-passagedata pid="41" name="ch1_070C_contact" tags="" position="925,825" size="100,100">Try to contact approaching ship...
 
-[[ch1_080A1_msg_positive]]
-[[ch1_080A2_msg_inquiry]]
-[[ch1_080A3_msg_negative]]</tw-passagedata><tw-passagedata pid="42" name="ch1_090A1_sun_wait" tags="" position="200,1075" size="100,100">You&#39;re too close to the sun for the other ship to reach you. It waits at a distance.
+[[Send Friendly Message|ch1_080A1_msg_positive]]
+[[Ask Other Ship Why They&#39;re Approaching|ch1_080A2_msg_inquiry]]
+[[Tell Other Ship to Back Off|ch1_080A3_msg_negative]]</tw-passagedata><tw-passagedata pid="42" name="ch1_090A1_sun_wait" tags="" position="225,1075" size="100,100">You&#39;re too close to the sun for the other ship to reach you. It waits at a distance.
 
 Your life support systems start indicating that they&#39;ll begin failing within an hour if you stay this close.
 
 [[Broadcast for help|ch1_100B_burn_up]]
-[[Make a run for it|ch1_100C_surrounded]]</tw-passagedata><tw-passagedata pid="43" name="ch1_090B1_surrounded" tags="" position="950,1075" size="100,100">The cluster has split into two different ships, a small swarm and a main swarm. It&#39;s quite close now and is blocking your escape from multiple angles...
+[[Make a run for it|ch1_100C_surrounded]]</tw-passagedata><tw-passagedata pid="43" name="ch1_090B1_surrounded" tags="" position="975,1075" size="100,100">The cluster has split into two different ships, a small swarm and a main swarm. It&#39;s quite close now and is blocking your escape from multiple angles...
 
 [[Evasive Maneuvers|ch1_100C_surrounded]]
-[[Fire at Cluster Ship|ch1_100A_attacked]]</tw-passagedata><tw-passagedata pid="44" name="ch1_080A2_msg_inquiry" tags="" position="950,950" size="100,100">(MESSAGE SENT)
+[[Fire at Cluster Ship|ch1_100A_attacked]]</tw-passagedata><tw-passagedata pid="44" name="ch1_080A2_msg_inquiry" tags="" position="1050,950" size="100,100">(MESSAGE SENT)
 
-Response to Inquiry Message
+Response to Inquiry Message — Your ship looks like one we&#39;ve identified as shipping illegal cargo. Have questions. Do not run.
 
 [[Wait for them to arrive|ch1_090B2_wait]]
-[[Run for it|ch1_090B1_surrounded]]</tw-passagedata><tw-passagedata pid="45" name="ch1_080A3_msg_negative" tags="" position="1075,950" size="100,100">(MESSAGE SENT)
+[[Run for it|ch1_090B1_surrounded]]</tw-passagedata><tw-passagedata pid="45" name="ch1_080A3_msg_negative" tags="" position="1175,950" size="100,100">(MESSAGE SENT)
 
-Response to Hostile Message
+Ship responds to your Hostile Message — &quot;Do not attempt to flee&quot;.
 
 [[Fire At Cluster Ship|ch1_090C_attacked]]
-[[Prepare to Be Borded|ch1_090E_prepare]]</tw-passagedata><tw-passagedata pid="46" name="ch1_080A1_msg_positive" tags="" position="825,950" size="100,100">(MESSAGE SENT)
+[[Prepare to Be Borded|ch1_090E_prepare]]</tw-passagedata><tw-passagedata pid="46" name="ch1_080A1_msg_positive" tags="" position="925,950" size="100,100">(MESSAGE SENT)
 
-Response to Welcoming Message...
+Response to Welcoming Message... we seek to rendevous with your ship.
 
 &quot;Let&#39;s meet&quot;
 
-[[Wait for them to arrive|ch1_090B2_wait]]</tw-passagedata><tw-passagedata pid="47" name="ch1_090C_attacked" tags="" position="1075,1075" size="100,100">The cluster ship is much closer to you now and fires upon you, disabling your engines...
+[[Wait for them to arrive|ch1_090B2_wait]]</tw-passagedata><tw-passagedata pid="47" name="ch1_090C_attacked" tags="" position="1100,1075" size="100,100">The cluster ship is much closer to you now and fires upon you, disabling your engines...
 
 [[Fire back|ch1_100A_attacked]]
 [[Surrender|ch1_100C_surrounded]]
 
-</tw-passagedata><tw-passagedata pid="48" name="ch1_080B1_satellites" tags="" position="325,950" size="100,100">Communication satellites around planet...
+</tw-passagedata><tw-passagedata pid="48" name="ch1_080B1_satellites" tags="" position="425,950" size="100,100">Communication satellites around planet...
 
 [[Attempt Communication|ch1_090D_planetary_satellites]]
-[[Destroy Satellites|ch1_090D_planetary_defence]]</tw-passagedata><tw-passagedata pid="49" name="ch1_080B2_landing" tags="" position="200,950" size="100,100">Attempt to land on the planet...
+[[Destroy Satellites|ch1_090D_planetary_defence]]</tw-passagedata><tw-passagedata pid="49" name="ch1_080B2_landing" tags="" position="300,950" size="100,100">Attempt to land on the planet...
 
 Description of 2 landing spots...
 
 [[Land at site A|ch1_090D_planetary_defence]]
-[[Land at site B|ch1_090D_planetary_defence]]</tw-passagedata><tw-passagedata pid="50" name="ch1_090D_planetary_defence" tags="" position="325,1075" size="100,100">Planetary Defences Fire Upon You...
+[[Land at site B|ch1_090D_planetary_defence]]</tw-passagedata><tw-passagedata pid="50" name="ch1_090D_planetary_defence" tags="" position="350,1075" size="100,100">(Difference in text depending on Site A or B chosen)
+
+Planetary Defences Fire Upon You...
 
 [[Try to Escape|ch1_100C_surrounded]]
-[[Fire Back|ch1_100D_fire_at_planet]]</tw-passagedata><tw-passagedata pid="51" name="ch1_100D_fire_at_planet" tags="" position="450,1200" size="100,100">The planetary defences are too strong. Your ship is destroyed.
+[[Fire Back|ch1_100D_fire_at_planet]]</tw-passagedata><tw-passagedata pid="51" name="ch1_100D_fire_at_planet" tags="" position="475,1200" size="100,100">The planetary defences are too strong. Your ship is destroyed.
 
-[[ch_110_ending]]</tw-passagedata><tw-passagedata pid="52" name="ch1_090B2_wait" tags="" position="825,1075" size="100,100">Wait for the other ship to arrive...
+[[END OF CHAPTER|ch_110_ending]]</tw-passagedata><tw-passagedata pid="52" name="ch1_090B2_wait" tags="" position="850,1075" size="100,100">Wait for the other ship to arrive...
 
-[[Docking|ch1_100C_surrounded]]</tw-passagedata><tw-passagedata pid="53" name="ch1_090A2_sun_too_close" tags="" position="75,1075" size="100,100">Close enough that the Radioactivity of the star is messing with your navigation and sensors.
+As they approach, the edge of their ship splits into many pieces and surrounds you.
+
+[[Docking|ch1_100C_surrounded]]</tw-passagedata><tw-passagedata pid="53" name="ch1_090A2_sun_too_close" tags="" position="100,1075" size="100,100">Close enough that the Radioactivity of the star is messing with your navigation and sensors.
 
 [[Attempt to Improve Shields|ch1_100B_burn_up]]
-[[Broadcast for help|ch1_100B_burn_up]]</tw-passagedata><tw-passagedata pid="54" name="ch_110_ending" tags="" position="525,1350" size="200,100">END OF CHAPTER 1
+[[Broadcast for help|ch1_100B_burn_up]]</tw-passagedata><tw-passagedata pid="54" name="ch_110_ending" tags="" position="550,1350" size="200,100">END OF CHAPTER 1
 
-- Vocabulary
-- Comprehension Quiz</tw-passagedata><tw-passagedata pid="55" name="ch1_080C1_solar_flare" tags="" position="75,950" size="100,100">The cluster ship begins breaking off into smaller ships and they&#39;re rotating out as they come close enough to fire at you.
+- Key Vocabulary
+- Comprehension Quiz
+- Go To Next Chapter</tw-passagedata><tw-passagedata pid="55" name="ch1_080C1_solar_flare" tags="" position="175,950" size="100,100">The cluster ship begins breaking off into smaller ships and they&#39;re rotating out as they come close enough to fire at you.
 
 You already have to dodge solar flares at this range.
 
@@ -328,22 +391,24 @@ If you move a little closer to the star, you may be able to keep out of range of
 Moving a lot closer is a big risk, but your jump engines will charge exponentially faster.
 
 [[Move a little closer to star|ch1_090A1_sun_wait]] 
-[[Move much closer to star|ch1_090A2_sun_too_close]]</tw-passagedata><tw-passagedata pid="56" name="ch1_090E_prepare" tags="" position="700,1075" size="100,100">Prepare to be borded...
+[[Move much closer to star|ch1_090A2_sun_too_close]]</tw-passagedata><tw-passagedata pid="56" name="ch1_090E_prepare" tags="" position="725,1075" size="100,100">Prepare to be borded...
 
-[[Surrounded|ch1_100C_surrounded]]</tw-passagedata><tw-passagedata pid="57" name="ch1_090D_planetary_satellites" tags="" position="450,1075" size="100,100">The satellites tell you to get out of their space and begin firing at you.
+- Hide Cargo &amp; Weapons
+
+[[Surrounded|ch1_100C_surrounded]]</tw-passagedata><tw-passagedata pid="57" name="ch1_090D_planetary_satellites" tags="" position="475,1075" size="100,100">The satellites tell you to get out of their space and begin firing at you.
 
 [[Try to Escape|ch1_100C_surrounded]]
-[[Fire Back|ch1_100D_fire_at_planet]]</tw-passagedata><tw-passagedata pid="58" name="ch1_070D_disable_systems" tags="" position="750,825" size="100,100">Disable all systems...
+[[Fire Back|ch1_100D_fire_at_planet]]</tw-passagedata><tw-passagedata pid="58" name="ch1_070D_disable_systems" tags="" position="750,825" size="100,100">You disable all systems but life support in hopes of evading detection...
 
 can&#39;t move or you&#39;ll be detected.
 
-[[ch1_080D1_cloaked]]
-[[ch1_080D2_engines]]</tw-passagedata><tw-passagedata pid="59" name="ch1_080D1_cloaked" tags="" position="575,950" size="100,100">The ship waits you out at your position and has begun firing towards where they think you are. 
+[[Stay Where You Are|ch1_080D1_cloaked]]
+[[Enable Thruster Engines|ch1_080D2_engines]]</tw-passagedata><tw-passagedata pid="59" name="ch1_080D1_cloaked" tags="" position="675,950" size="100,100">The ship waits you out at your position and has begun firing towards where they think you are. 
 
 Your battery is draining.
 
 [[Prepare to Be Borded|ch1_090E_prepare]]
-[[Run for it|ch1_090B1_surrounded]]</tw-passagedata><tw-passagedata pid="60" name="ch1_080D2_engines" tags="" position="700,950" size="100,100">You begin firing engines slowly to help drift you away.
+[[Run for it|ch1_090B1_surrounded]]</tw-passagedata><tw-passagedata pid="60" name="ch1_080D2_engines" tags="" position="800,950" size="100,100">You begin firing engines slowly to help drift you away.
 
 You get a fair distance away.
 
@@ -356,18 +421,21 @@ The backup oxygen has lasted long enough to fix the hull.
 
 Pae has info on full systems scan, Fi has managed to evade further shots.
 
-[[ch1_080C_fix_oxygen]]</tw-passagedata><tw-passagedata pid="62" name="ch1_100E_hull_buckle" tags="" position="575,1200" size="100,100">The backup oxygen has lasted long enough for you to fix the main oxygen.
+[[Fix Oxygen|ch1_080C_fix_oxygen]]</tw-passagedata><tw-passagedata pid="62" name="ch1_100E_hull_buckle" tags="" position="600,1200" size="100,100">The backup oxygen has lasted long enough for you to fix the main oxygen.
 
 Unfortunately, the hull has began to buckle and tear as Fi evaded fire.
 
 The cluster ship hits you directly once more, blowing you up into pieces. You die.
 
-[[ch_110_ending]]</tw-passagedata><tw-passagedata pid="63" name="ch1_080C_fix_oxygen" tags="" position="450,950" size="100,100">Description of how the oxygen system is broken and needs to be fixed.
+[[END OF CHAPTER|ch_110_ending]]</tw-passagedata><tw-passagedata pid="63" name="ch1_080C_fix_oxygen" tags="" position="550,950" size="100,100">Description of how the oxygen system is broken and needs to be fixed.
 
 You manage to fix the oxygen system just as the backup runs out.
 
 [[Prepare to be borded|ch1_090E_prepare]]
-[[Charge Weapons|ch1_090C_attacked]]</tw-passagedata></tw-storydata>
+[[Charge Weapons|ch1_090C_attacked]]</tw-passagedata><tw-passagedata pid="64" name="ch1_080C2_star_stay" tags="" position="50,950" size="100,100">The cluster ship has split into 6 pieces around your position. It&#39;s not able capture you as it seems like it can&#39;t get any closer, but it has begun bombarding you with its weapons from multiple sides — you seem to still be in firing range.
+
+[[Move a little closer to star|ch1_090A1_sun_wait]] 
+[[Move much closer to star|ch1_090A2_sun_too_close]]</tw-passagedata></tw-storydata>
 	<script id="script-sugarcube" type="text/javascript">
 	/*! SugarCube JS */
 	if(document.documentElement.getAttribute("data-init")==="loading"){!function(window,document,jQuery,undefined){"use strict";function _classCallCheck(e,t){if(!(e instanceof t))throw new TypeError("Cannot call a class as a function")}function _toConsumableArray(e){if(Array.isArray(e)){for(var t=0,r=Array(e.length);t<e.length;t++)r[t]=e[t];return r}return Array.from(e)}var _createClass=function(){function e(e,t){for(var r=0;r<t.length;r++){var n=t[r];n.enumerable=n.enumerable||!1,n.configurable=!0,"value"in n&&(n.writable=!0),Object.defineProperty(e,n.key,n)}}return function(t,r,n){return r&&e(t.prototype,r),n&&e(t,n),t}}(),_slicedToArray=function(){function e(e,t){var r=[],n=!0,a=!1,i=undefined;try{for(var o,s=e[Symbol.iterator]();!(n=(o=s.next()).done)&&(r.push(o.value),!t||r.length!==t);n=!0);}catch(e){a=!0,i=e}finally{try{!n&&s.return&&s.return()}finally{if(a)throw i}}return r}return function(t,r){if(Array.isArray(t))return t;if(Symbol.iterator in Object(t))return e(t,r);throw new TypeError("Invalid attempt to destructure non-iterable instance")}}(),_typeof="function"==typeof Symbol&&"symbol"==typeof Symbol.iterator?function(e){return typeof e}:function(e){return e&&"function"==typeof Symbol&&e.constructor===Symbol&&e!==Symbol.prototype?"symbol":typeof e},errorPrologRegExp=/^(?:(?:uncaught\s+(?:exception:\s+)?)?\w*(?:error|exception|_err):\s+)+/i,Alert=function(){function e(e,t,r,n){var a="fatal"===e,i="Apologies! "+(a?"A fatal":"An")+" error has occurred.";i+=a?" Aborting.":" You may be able to continue, but some parts may not work properly.",null==t&&null==r||(i+="\n\nError",null!=t&&(i+=" ["+t+"]"),i+=null!=r?": "+r.replace(errorPrologRegExp,"")+".":": unknown error."),"object"===(void 0===n?"undefined":_typeof(n))&&null!==n&&n.stack&&(i+="\n\nStack Trace:\n"+n.stack),window.alert(i)}function t(t,r,n){e(null,t,r,n)}function r(t,r,n){e("fatal",t,r,n)}return function(e){window.onerror=function(n,a,i,o,s){"complete"===document.readyState?t(null,n,s):(r(null,n,s),window.onerror=e,"function"==typeof window.onerror&&window.onerror.apply(this,arguments))}}(window.onerror),Object.freeze(Object.defineProperties({},{error:{value:t},fatal:{value:r}}))}(),Patterns=function(){var e=function(){var e=new Map([[" ","\\u0020"],["\f","\\f"],["\n","\\n"],["\r","\\r"],["\t","\\t"],["\v","\\v"],[" ","\\u00a0"],[" ","\\u1680"],["᠎","\\u180e"],[" ","\\u2000"],[" ","\\u2001"],[" ","\\u2002"],[" ","\\u2003"],[" ","\\u2004"],[" ","\\u2005"],[" ","\\u2006"],[" ","\\u2007"],[" ","\\u2008"],[" ","\\u2009"],[" ","\\u200a"],["\u2028","\\u2028"],["\u2029","\\u2029"],[" ","\\u202f"],[" ","\\u205f"],["　","\\u3000"],["\ufeff","\\ufeff"]]),t=/^\s$/,r="";return e.forEach(function(e,n){t.test(n)||(r+=e)}),r?"[\\s"+r+"]":"\\s"}(),t="[\\u0020\\f\\t\\v\\u00a0\\u1680\\u180e\\u2000-\\u200a\\u202f\\u205f\\u3000\\ufeff]",r="\\s"===e?"\\S":e.replace(/^\[/,"[^"),n="[0-9A-Z_a-z\\-\\u00c0-\\u00d6\\u00d8-\\u00f6\\u00f8-\\u00ff\\u0150\\u0170\\u0151\\u0171]",a=n.replace("\\-",""),i=function(){var e="(?:[\\x2D.0-9A-Z_a-z\\xB7\\xC0-\\xD6\\xD8-\\xF6\\xF8-\\u037D\\u037F-\\u1FFF\\u200C\\u200D\\u203F\\u2040\\u2070-\\u218F\\u2C00-\\u2FEF\\u3001-\\uD7FF\\uF900-\\uFDCF\\uFDF0-\\uFFFD]|[\\uD800-\\uDB7F][\\uDC00-\\uDFFF])";return"[A-Za-z](?:"+e+"*-"+e+"*|[0-9A-Za-z]*)"}(),o=function(){return"("+n+"+)\\(([^\\)\\|\\n]+)\\):|"+t+"*("+n+"+)"+t+"*:([^;\\|\\n]+);|"+t+"*((?:[#.]"+n+"+"+t+"*)+);"}();return Object.freeze({space:e,spaceNoTerminator:t,lineTerminator:"[\\n\\r\\u2028\\u2029]",notSpace:r,anyChar:"(?:.|[\\n\\r\\u2028\\u2029])",anyLetter:n,anyLetterStrict:a,identifierFirstChar:"[$A-Z_a-z]",identifierNextChar:"[$0-9A-Z_a-z]",identifier:"[$A-Z_a-z][$0-9A-Z_a-z]*",variableSigil:"[$_]",variable:"[$_][$A-Z_a-z][$0-9A-Z_a-z]*",macroName:"[A-Za-z][\\w-]*|[=-]",templateName:"[A-Za-z][\\w-]*",htmlTagName:i,cssIdOrClassSigil:"[#.]",cssImage:"\\[[<>]?[Ii][Mm][Gg]\\[(?:\\s|\\S)*?\\]\\]+",inlineCss:o,url:"(?:file|https?|mailto|ftp|javascript|irc|news|data):[^\\s'\"]+"})}();!function(){function e(e,t){var r=Number.parseInt(e,10)||0;if(r<1)return"";var n=void 0===t?"":String(t);for(""===n&&(n=" ");n.length<r;){var a=n.length,i=r-a;n+=a>i?n.slice(0,i):n}return n.length>r&&(n=n.slice(0,r)),n}var t=function(){function e(e,n){var a=String(e);if(!a)return a;switch(n){case"start":return t.test(a)?a.replace(t,""):a;case"end":return r.test(a)?a.replace(r,""):a;default:throw new Error('_trimString called with incorrect where parameter value: "'+n+'"')}}var t=new RegExp("^"+Patterns.space+Patterns.space+"*"),r=new RegExp(""+Patterns.space+Patterns.space+"*$");return e}();Array.prototype.flat||Object.defineProperty(Array.prototype,"flat",{configurable:!0,writable:!0,value:function(){function e(){if(null==this)throw new TypeError("Array.prototype.flat called on null or undefined");var t=0===arguments.length?1:Number(arguments[0])||0;return t<1?Array.prototype.slice.call(this):Array.prototype.reduce.call(this,function(r,n){return n instanceof Array?r.push.apply(r,_toConsumableArray(e.call(n,t-1))):r.push(n),r},[])}return e}()}),Array.prototype.flatMap||Object.defineProperty(Array.prototype,"flatMap",{configurable:!0,writable:!0,value:function(){if(null==this)throw new TypeError("Array.prototype.flatMap called on null or undefined");return Array.prototype.map.apply(this,arguments).flat()}}),Array.prototype.includes||Object.defineProperty(Array.prototype,"includes",{configurable:!0,writable:!0,value:function(){if(null==this)throw new TypeError("Array.prototype.includes called on null or undefined");if(0===arguments.length)return!1;var e=this.length>>>0;if(0===e)return!1;var t=arguments[0],r=Number(arguments[1])||0;for(r<0&&(r=Math.max(0,e+r));r<e;++r){var n=this[r];if(n===t||n!==n&&t!==t)return!0}return!1}}),Object.entries||Object.defineProperty(Object,"entries",{configurable:!0,writable:!0,value:function(e){if("object"!==(void 0===e?"undefined":_typeof(e))||null===e)throw new TypeError("Object.entries object parameter must be an object");return Object.keys(e).map(function(t){return[t,e[t]]})}}),Object.fromEntries||Object.defineProperty(Object,"fromEntries",{configurable:!0,writable:!0,value:function(e){return Array.from(e).reduce(function(e,t){if(Object(t)!==t)throw new TypeError("Object.fromEntries iterable parameter must yield objects");return t[0]in e?Object.defineProperty(e,t[0],{configurable:!0,enumerable:!0,writable:!0,value:t[1]}):e[t[0]]=t[1],e},{})}}),Object.getOwnPropertyDescriptors||Object.defineProperty(Object,"getOwnPropertyDescriptors",{configurable:!0,writable:!0,value:function(e){if(null==e)throw new TypeError("Object.getOwnPropertyDescriptors object parameter is null or undefined");var t=Object(e);return Reflect.ownKeys(t).reduce(function(e,r){var n=Object.getOwnPropertyDescriptor(t,r);return void 0!==n&&(r in e?Object.defineProperty(e,r,{configurable:!0,enumerable:!0,writable:!0,value:n}):e[r]=n),e},{})}}),Object.values||Object.defineProperty(Object,"values",{configurable:!0,writable:!0,value:function(e){if("object"!==(void 0===e?"undefined":_typeof(e))||null===e)throw new TypeError("Object.values object parameter must be an object");return Object.keys(e).map(function(t){return e[t]})}}),String.prototype.padStart||Object.defineProperty(String.prototype,"padStart",{configurable:!0,writable:!0,value:function(t,r){if(null==this)throw new TypeError("String.prototype.padStart called on null or undefined");var n=String(this),a=n.length,i=Number.parseInt(t,10);return i<=a?n:e(i-a,r)+n}}),String.prototype.padEnd||Object.defineProperty(String.prototype,"padEnd",{configurable:!0,writable:!0,value:function(t,r){if(null==this)throw new TypeError("String.prototype.padEnd called on null or undefined");var n=String(this),a=n.length,i=Number.parseInt(t,10);return i<=a?n:n+e(i-a,r)}}),String.prototype.trimStart||Object.defineProperty(String.prototype,"trimStart",{configurable:!0,writable:!0,value:function(){if(null==this)throw new TypeError("String.prototype.trimStart called on null or undefined");return t(this,"start")}}),String.prototype.trimLeft||Object.defineProperty(String.prototype,"trimLeft",{configurable:!0,writable:!0,value:function(){if(null==this)throw new TypeError("String.prototype.trimLeft called on null or undefined");return t(this,"start")}}),String.prototype.trimEnd||Object.defineProperty(String.prototype,"trimEnd",{configurable:!0,writable:!0,value:function(){if(null==this)throw new TypeError("String.prototype.trimEnd called on null or undefined");return t(this,"end")}}),String.prototype.trimRight||Object.defineProperty(String.prototype,"trimRight",{configurable:!0,writable:!0,value:function(){if(null==this)throw new TypeError("String.prototype.trimRight called on null or undefined");return t(this,"end")}})}(),function(){function _random(){var e=void 0,t=void 0;switch(arguments.length){case 0:throw new Error("_random called with insufficient parameters");case 1:e=0,t=arguments[0];break;default:e=arguments[0],t=arguments[1]}if(e>t){var r=[t,e];e=r[0],t=r[1]}return Math.floor(_nativeMathRandom()*(t-e+1))+e}function _randomIndex(e,t){var r=void 0,n=void 0;switch(t.length){case 1:r=0,n=e-1;break;case 2:r=0,n=Math.trunc(t[1]);break;default:r=Math.trunc(t[1]),n=Math.trunc(t[2])}return Number.isNaN(r)?r=0:!Number.isFinite(r)||r>=e?r=e-1:r<0&&(r=e+r)<0&&(r=0),Number.isNaN(n)?n=0:!Number.isFinite(n)||n>=e?n=e-1:n<0&&(n=e+n)<0&&(n=e-1),_random(r,n)}function _getCodePointStartAndEnd(e,t){var r=e.charCodeAt(t);if(Number.isNaN(r))return{char:"",start:-1,end:-1};if(r<55296||r>57343)return{char:e.charAt(t),start:t,end:t};if(r>=55296&&r<=56319){var n=t+1;if(n>=e.length)throw new Error("high surrogate without trailing low surrogate");var a=e.charCodeAt(n);if(a<56320||a>57343)throw new Error("high surrogate without trailing low surrogate");return{char:e.charAt(t)+e.charAt(n),start:t,end:n}}if(0===t)throw new Error("low surrogate without leading high surrogate");var i=t-1,o=e.charCodeAt(i);if(o<55296||o>56319)throw new Error("low surrogate without leading high surrogate");return{char:e.charAt(i)+e.charAt(t),start:i,end:t}}var _nativeMathRandom=Math.random;Object.defineProperty(Array,"random",{configurable:!0,writable:!0,value:function(e){if("object"!==(void 0===e?"undefined":_typeof(e))||null===e||!Object.prototype.hasOwnProperty.call(e,"length"))throw new TypeError("Array.random array parameter must be an array or array-lke object");var t=e.length>>>0;if(0!==t){return e[0===arguments.length?_random(0,t-1):_randomIndex(t,Array.prototype.slice.call(arguments,1))]}}}),Object.defineProperty(Array.prototype,"concatUnique",{configurable:!0,writable:!0,value:function(){if(null==this)throw new TypeError("Array.prototype.concatUnique called on null or undefined");var e=Array.from(this);if(0===arguments.length)return e;var t=Array.prototype.reduce.call(arguments,function(e,t){return e.concat(t)},[]),r=t.length;if(0===r)return e;for(var n=Array.prototype.indexOf,a=Array.prototype.push,i=0;i<r;++i){var o=t[i];-1===n.call(e,o)&&a.call(e,o)}return e}}),Object.defineProperty(Array.prototype,"count",{configurable:!0,writable:!0,value:function(){if(null==this)throw new TypeError("Array.prototype.count called on null or undefined");for(var e=Array.prototype.indexOf,t=arguments[0],r=Number(arguments[1])||0,n=0;-1!==(r=e.call(this,t,r));)++n,++r;return n}}),Object.defineProperty(Array.prototype,"delete",{configurable:!0,writable:!0,value:function(){if(null==this)throw new TypeError("Array.prototype.delete called on null or undefined");if(0===arguments.length)return[];var e=this.length>>>0;if(0===e)return[];for(var t=Array.prototype.concat.apply([],arguments),r=t.length,n=[],a=0;a<e;++a)for(var i=this[a],o=0;o<r;++o){var s=t[o];if(i===s||i!==i&&s!==s){n.push(a);break}}for(var u=[],l=0,c=n.length;l<c;++l)u[l]=this[n[l]];for(var d=Array.prototype.splice,f=n.length-1;f>=0;--f)d.call(this,n[f],1);return u}}),Object.defineProperty(Array.prototype,"deleteAt",{configurable:!0,writable:!0,value:function(){if(null==this)throw new TypeError("Array.prototype.deleteAt called on null or undefined");if(0===arguments.length)return[];var e=this.length>>>0;if(0===e)return[];for(var t=Array.prototype.splice,r=[].concat(_toConsumableArray(new Set(Array.prototype.concat.apply([],arguments).map(function(t){return t<0?Math.max(0,e+t):t})).values())),n=[].concat(_toConsumableArray(r)).sort(function(e,t){return t-e}),a=[],i=0,o=r.length;i<o;++i)a[i]=this[r[i]];for(var s=0,u=n.length;s<u;++s)t.call(this,n[s],1);return a}}),Object.defineProperty(Array.prototype,"deleteWith",{configurable:!0,writable:!0,value:function(e,t){if(null==this)throw new TypeError("Array.prototype.deleteWith called on null or undefined");if("function"!=typeof e)throw new Error("Array.prototype.deleteWith predicate parameter must be a function");var r=this.length>>>0;if(0===r)return[];for(var n=Array.prototype.splice,a=[],i=[],o=0;o<r;++o)e.call(t,this[o],o,this)&&(i.push(this[o]),a.push(o));for(var s=a.length-1;s>=0;--s)n.call(this,a[s],1);return i}}),Object.defineProperty(Array.prototype,"first",{configurable:!0,writable:!0,value:function(){if(null==this)throw new TypeError("Array.prototype.first called on null or undefined");if(0!=this.length>>>0)return this[0]}}),Object.defineProperty(Array.prototype,"includesAll",{configurable:!0,writable:!0,value:function(){if(null==this)throw new TypeError("Array.prototype.includesAll called on null or undefined");if(1===arguments.length)return Array.isArray(arguments[0])?Array.prototype.includesAll.apply(this,arguments[0]):Array.prototype.includes.apply(this,arguments);for(var e=0,t=arguments.length;e<t;++e)if(!Array.prototype.some.call(this,function(e){return e===this.val||e!==e&&this.val!==this.val},{val:arguments[e]}))return!1;return!0}}),Object.defineProperty(Array.prototype,"includesAny",{configurable:!0,writable:!0,value:function(){if(null==this)throw new TypeError("Array.prototype.includesAny called on null or undefined");if(1===arguments.length)return Array.isArray(arguments[0])?Array.prototype.includesAny.apply(this,arguments[0]):Array.prototype.includes.apply(this,arguments);for(var e=0,t=arguments.length;e<t;++e)if(Array.prototype.some.call(this,function(e){return e===this.val||e!==e&&this.val!==this.val},{val:arguments[e]}))return!0;return!1}}),Object.defineProperty(Array.prototype,"last",{configurable:!0,writable:!0,value:function(){if(null==this)throw new TypeError("Array.prototype.last called on null or undefined");var e=this.length>>>0;if(0!==e)return this[e-1]}}),Object.defineProperty(Array.prototype,"pluck",{configurable:!0,writable:!0,value:function(){if(null==this)throw new TypeError("Array.prototype.pluck called on null or undefined");var e=this.length>>>0;if(0!==e){var t=0===arguments.length?_random(0,e-1):_randomIndex(e,[].concat(Array.prototype.slice.call(arguments)));return Array.prototype.splice.call(this,t,1)[0]}}}),Object.defineProperty(Array.prototype,"pluckMany",{configurable:!0,writable:!0,value:function(e){if(null==this)throw new TypeError("Array.prototype.pluckMany called on null or undefined");var t=this.length>>>0;if(0===t)return[];var r=Math.trunc(e);if(!Number.isInteger(r))throw new Error("Array.prototype.pluckMany want parameter must be an integer");if(r<1)return[];r>t&&(r=t);var n=Array.prototype.splice,a=[],i=t-1;do{a.push(n.call(this,_random(0,i--),1)[0])}while(a.length<r);return a}}),Object.defineProperty(Array.prototype,"pushUnique",{configurable:!0,writable:!0,value:function(){if(null==this)throw new TypeError("Array.prototype.pushUnique called on null or undefined");var e=arguments.length;if(0===e)return this.length>>>0;for(var t=Array.prototype.indexOf,r=Array.prototype.push,n=0;n<e;++n){var a=arguments[n];-1===t.call(this,a)&&r.call(this,a)}return this.length>>>0}}),Object.defineProperty(Array.prototype,"random",{configurable:!0,writable:!0,value:function(){if(null==this)throw new TypeError("Array.prototype.random called on null or undefined");var e=this.length>>>0;if(0!==e){return this[0===arguments.length?_random(0,e-1):_randomIndex(e,[].concat(Array.prototype.slice.call(arguments)))]}}}),Object.defineProperty(Array.prototype,"randomMany",{configurable:!0,writable:!0,value:function(e){if(null==this)throw new TypeError("Array.prototype.randomMany called on null or undefined");var t=this.length>>>0;if(0===t)return[];var r=Math.trunc(e);if(!Number.isInteger(r))throw new Error("Array.prototype.randomMany want parameter must be an integer");if(r<1)return[];r>t&&(r=t);var n=new Map,a=[],i=t-1;do{var o=void 0;do{o=_random(0,i)}while(n.has(o));n.set(o,!0),a.push(this[o])}while(a.length<r);return a}}),Object.defineProperty(Array.prototype,"shuffle",{configurable:!0,writable:!0,value:function(){if(null==this)throw new TypeError("Array.prototype.shuffle called on null or undefined");var e=this.length>>>0;if(0===e)return this;for(var t=e-1;t>0;--t){var r=Math.floor(_nativeMathRandom()*(t+1));if(t!==r){var n=this[t];this[t]=this[r],this[r]=n}}return this}}),Object.defineProperty(Array.prototype,"unshiftUnique",{configurable:!0,writable:!0,value:function(){if(null==this)throw new TypeError("Array.prototype.unshiftUnique called on null or undefined");var e=arguments.length;if(0===e)return this.length>>>0;for(var t=Array.prototype.indexOf,r=Array.prototype.unshift,n=0;n<e;++n){var a=arguments[n];-1===t.call(this,a)&&r.call(this,a)}return this.length>>>0}}),Object.defineProperty(Function.prototype,"partial",{configurable:!0,writable:!0,value:function(){if(null==this)throw new TypeError("Function.prototype.partial called on null or undefined");var e=Array.prototype.slice,t=this,r=e.call(arguments,0);return function(){for(var n=[],a=0,i=0;i<r.length;++i)n.push(r[i]===undefined?arguments[a++]:r[i]);return t.apply(this,n.concat(e.call(arguments,a)))}}}),Object.defineProperty(Math,"clamp",{configurable:!0,writable:!0,value:function(e,t,r){var n=Number(e);return Number.isNaN(n)?NaN:n.clamp(t,r)}}),Object.defineProperty(Math,"easeInOut",{configurable:!0,writable:!0,value:function(e){return 1-(Math.cos(Number(e)*Math.PI)+1)/2}}),Object.defineProperty(Number.prototype,"clamp",{configurable:!0,writable:!0,value:function(){if(null==this)throw new TypeError("Number.prototype.clamp called on null or undefined");if(2!==arguments.length)throw new Error("Number.prototype.clamp called with an incorrect number of parameters");var e=Number(arguments[0]),t=Number(arguments[1]);if(e>t){var r=[t,e];e=r[0],t=r[1]}return Math.min(Math.max(this,e),t)}}),RegExp.escape||function(){var e=/[\\^$*+?.()|[\]{}]/g,t=new RegExp(e.source);Object.defineProperty(RegExp,"escape",{configurable:!0,writable:!0,value:function(r){var n=String(r);return n&&t.test(n)?n.replace(e,"\\$&"):n}})}(),function(){var e=/{(\d+)(?:,([+-]?\d+))?}/g,t=new RegExp(e.source);Object.defineProperty(String,"format",{configurable:!0,writable:!0,value:function(r){function n(e,t,r){if(!t)return e;var n=Math.abs(t)-e.length;if(n<1)return e;var a=String(r).repeat(n);return t<0?e+a:a+e}if(arguments.length<2)return 0===arguments.length?"":r;var a=2===arguments.length&&Array.isArray(arguments[1])?[].concat(_toConsumableArray(arguments[1])):Array.prototype.slice.call(arguments,1);return 0===a.length?r:t.test(r)?(e.lastIndex=0,r.replace(e,function(e,t,r){var i=a[t];if(null==i)return"";for(;"function"==typeof i;)i=i();switch(void 0===i?"undefined":_typeof(i)){case"string":break;case"object":i=JSON.stringify(i);break;default:i=String(i)}return n(i,r?Number.parseInt(r,10):0," ")})):r}})}(),Object.defineProperty(String.prototype,"contains",{configurable:!0,writable:!0,value:function(){if(null==this)throw new TypeError("String.prototype.contains called on null or undefined");return-1!==String.prototype.indexOf.apply(this,arguments)}}),Object.defineProperty(String.prototype,"count",{configurable:!0,writable:!0,value:function(){if(null==this)throw new TypeError("String.prototype.count called on null or undefined");var e=String(arguments[0]||"");if(""===e)return 0;for(var t=String.prototype.indexOf,r=e.length,n=Number(arguments[1])||0,a=0;-1!==(n=t.call(this,e,n));)++a,n+=r;return a}}),Object.defineProperty(String.prototype,"first",{configurable:!0,writable:!0,value:function(){if(null==this)throw new TypeError("String.prototype.first called on null or undefined");return _getCodePointStartAndEnd(String(this),0).char}}),Object.defineProperty(String.prototype,"last",{configurable:!0,writable:!0,value:function(){if(null==this)throw new TypeError("String.prototype.last called on null or undefined");var e=String(this);return _getCodePointStartAndEnd(e,e.length-1).char}}),Object.defineProperty(String.prototype,"splice",{configurable:!0,writable:!0,value:function(e,t,r){if(null==this)throw new TypeError("String.prototype.splice called on null or undefined");var n=this.length>>>0;if(0===n)return"";var a=Number(e);Number.isSafeInteger(a)?a<0&&(a+=n)<0&&(a=0):a=0,a>n&&(a=n);var i=Number(t);(!Number.isSafeInteger(i)||i<0)&&(i=0);var o=this.slice(0,a);return void 0!==r&&(o+=r),a+i<n&&(o+=this.slice(a+i)),o}}),Object.defineProperty(String.prototype,"splitOrEmpty",{configurable:!0,writable:!0,value:function(){if(null==this)throw new TypeError("String.prototype.splitOrEmpty called on null or undefined");return""===String(this)?[]:String.prototype.split.apply(this,arguments)}}),Object.defineProperty(String.prototype,"toLocaleUpperFirst",{configurable:!0,writable:!0,value:function(){if(null==this)throw new TypeError("String.prototype.toLocaleUpperFirst called on null or undefined");var e=String(this),t=_getCodePointStartAndEnd(e,0),r=t.char,n=t.end;return-1===n?"":r.toLocaleUpperCase()+e.slice(n+1)}}),Object.defineProperty(String.prototype,"toUpperFirst",{configurable:!0,writable:!0,value:function(){if(null==this)throw new TypeError("String.prototype.toUpperFirst called on null or undefined");var e=String(this),t=_getCodePointStartAndEnd(e,0),r=t.char,n=t.end;return-1===n?"":r.toUpperCase()+e.slice(n+1)}}),Object.defineProperty(Date.prototype,"toJSON",{configurable:!0,writable:!0,value:function(){return["(revive:date)",this.toISOString()]}}),Object.defineProperty(Function.prototype,"toJSON",{configurable:!0,writable:!0,value:function(){return["(revive:eval)","("+this.toString()+")"]}}),Object.defineProperty(Map.prototype,"toJSON",{configurable:!0,writable:!0,value:function(){return["(revive:map)",[].concat(_toConsumableArray(this))]}}),Object.defineProperty(RegExp.prototype,"toJSON",{configurable:!0,writable:!0,value:function(){return["(revive:eval)",this.toString()]}}),Object.defineProperty(Set.prototype,"toJSON",{configurable:!0,writable:!0,value:function(){return["(revive:set)",[].concat(_toConsumableArray(this))]}}),Object.defineProperty(JSON,"reviveWrapper",{configurable:!0,writable:!0,value:function(e,t){if("string"!=typeof e)throw new TypeError("JSON.reviveWrapper code parameter must be a string");return["(revive:eval)",[e,t]]}}),Object.defineProperty(JSON,"_real_stringify",{value:JSON.stringify}),Object.defineProperty(JSON,"stringify",{configurable:!0,writable:!0,value:function(e,t,r){return JSON._real_stringify(e,function(e,r){var n=r;if("function"==typeof t)try{n=t(e,n)}catch(e){}return void 0===n&&(n=["(revive:eval)","undefined"]),n},r)}}),Object.defineProperty(JSON,"_real_parse",{value:JSON.parse}),Object.defineProperty(JSON,"parse",{configurable:!0,writable:!0,value:function value(text,reviver){return JSON._real_parse(text,function(key,val){var value=val;if(Array.isArray(value)&&2===value.length)switch(value[0]){case"(revive:set)":value=new Set(value[1]);break;case"(revive:map)":value=new Map(value[1]);break;case"(revive:date)":value=new Date(value[1]);break;case"(revive:eval)":try{if(Array.isArray(value[1])){var $ReviveData$=value[1][1];value=eval(value[1][0])}else value=eval(value[1])}catch(e){}}else if("string"==typeof value&&"@@revive@@"===value.slice(0,10))try{value=eval(value.slice(10))}catch(e){}if("function"==typeof reviver)try{value=reviver(key,value)}catch(e){}return value})}}),Object.defineProperty(Array.prototype,"contains",{configurable:!0,writable:!0,value:function(){if(null==this)throw new TypeError("Array.prototype.contains called on null or undefined");return Array.prototype.includes.apply(this,arguments)}}),Object.defineProperty(Array.prototype,"containsAll",{configurable:!0,writable:!0,value:function(){if(null==this)throw new TypeError("Array.prototype.containsAll called on null or undefined");return Array.prototype.includesAll.apply(this,arguments)}}),Object.defineProperty(Array.prototype,"containsAny",{configurable:!0,writable:!0,value:function(){if(null==this)throw new TypeError("Array.prototype.containsAny called on null or undefined");return Array.prototype.includesAny.apply(this,arguments)}}),Object.defineProperty(Array.prototype,"flatten",{configurable:!0,writable:!0,value:function(){if(null==this)throw new TypeError("Array.prototype.flatten called on null or undefined");return Array.prototype.flat.call(this,1/0)}}),Object.defineProperty(String.prototype,"readBracketedList",{configurable:!0,writable:!0,value:function(){if(null==this)throw new TypeError("String.prototype.readBracketedList called on null or undefined");for(var e=new RegExp("(?:\\[\\[((?:\\s|\\S)*?)\\]\\])|([^\"'\\s]\\S*)","gm"),t=[],r=void 0;null!==(r=e.exec(this));)r[1]?t.push(r[1]):r[2]&&t.push(r[2]);return t}})}();var Browser=function(){var e=navigator.userAgent.toLowerCase(),t=e.includes("windows phone"),r=Object.freeze({Android:!t&&e.includes("android"),BlackBerry:/blackberry|bb10/.test(e),iOS:!t&&/ip(?:hone|ad|od)/.test(e),Opera:!t&&("object"===_typeof(window.operamini)||e.includes("opera mini")),Windows:t||/iemobile|wpdesktop/.test(e),any:function(){return r.Android||r.BlackBerry||r.iOS||r.Opera||r.Windows}}),n=!r.Windows&&!/khtml|trident|edge/.test(e)&&e.includes("gecko"),a=!e.includes("opera")&&/msie|trident/.test(e),i=a?function(){var t=/(?:msie\s+|rv:)(\d+\.\d)/.exec(e);return t?Number(t[1]):0}():null,o=e.includes("opera")||e.includes(" opr/"),s=o?function(){var t=new RegExp((/khtml|chrome/.test(e)?"opr":"version")+"\\/(\\d+\\.\\d+)"),r=t.exec(e);return r?Number(r[1]):0}():null,u=e.includes("vivaldi");return Object.freeze({userAgent:e,isMobile:r,isGecko:n,isIE:a,ieVersion:i,isOpera:o,operaVersion:s,isVivaldi:u})}(),Has=function(){var e=function(){try{return"function"==typeof document.createElement("audio").canPlayType}catch(e){}return!1}(),t=function(){try{return"Blob"in window&&"File"in window&&"FileList"in window&&"FileReader"in window&&(!Browser.isOpera||Browser.operaVersion>=15)}catch(e){}return!1}(),r=function(){try{return"geolocation"in navigator&&"function"==typeof navigator.geolocation.getCurrentPosition&&"function"==typeof navigator.geolocation.watchPosition}catch(e){}return!1}(),n=function(){try{return"MutationObserver"in window&&"function"==typeof window.MutationObserver}catch(e){}return!1}(),a=function(){try{return"performance"in window&&"function"==typeof window.performance.now}catch(e){}return!1}(),i=function(){try{return"ontouchstart"in window||!!window.DocumentTouch&&document instanceof window.DocumentTouch||!!navigator.maxTouchPoints||!!navigator.msMaxTouchPoints}catch(e){}return!1}(),o=function(){try{for(var e=new Map([["transition","transitionend"],["MSTransition","msTransitionEnd"],["WebkitTransition","webkitTransitionEnd"],["MozTransition","transitionend"]]),t=[].concat(_toConsumableArray(e.keys())),r=document.createElement("div"),n=0;n<t.length;++n)if(r.style[t[n]]!==undefined)return e.get(t[n])}catch(e){}return!1}();return Object.freeze({audio:e,fileAPI:t,geolocation:r,mutationObserver:n,performance:a,touch:i,transitionEndEvent:o})}(),Visibility=function(){function e(){return a}function t(){return a&&document[a.stateProperty]||"visible"}function r(){return Boolean(a)}function n(){return Boolean(a&&document[a.hiddenProperty])}var a=function(){try{return Object.freeze([{hiddenProperty:"hidden",stateProperty:"visibilityState",changeEvent:"visibilitychange"},{hiddenProperty:"webkitHidden",stateProperty:"webkitVisibilityState",changeEvent:"webkitvisibilitychange"},{hiddenProperty:"mozHidden",stateProperty:"mozVisibilityState",changeEvent:"mozvisibilitychange"},{hiddenProperty:"msHidden",stateProperty:"msVisibilityState",changeEvent:"msvisibilitychange"}].find(function(e){return e.hiddenProperty in document}))}catch(e){}return undefined}();return Object.freeze(Object.defineProperties({},{vendor:{get:e},state:{get:t},isEnabled:{value:r},isHidden:{value:n},hiddenProperty:{value:a&&a.hiddenProperty},stateProperty:{value:a&&a.stateProperty},changeEvent:{value:a&&a.changeEvent}}))}(),Fullscreen=function(){function e(e){var t=e||document.documentElement;return t===document.documentElement&&("msRequestFullscreen"===f.requestFn||Browser.isOpera&&Browser.operaVersion<15)&&(t=document.body),t}function t(){return f}function r(){return(f||null)&&document[f.element]}function n(){return Boolean(f&&document[f.isEnabled])}function a(){return Boolean(f&&document[f.element])}function i(t,r){var n=this;if(!f)return Promise.reject(new Error("fullscreen not supported"));var i=e(r);if("function"!=typeof i[f.requestFn])return Promise.reject(new Error("fullscreen not supported"));if(a())return Promise.resolve();if(p())return i[f.requestFn](t);var o=".Fullscreen_requestFullscreen";return new Promise(function(e,r){jQuery(i).off(o).one(""+f.errorEvent+o+" "+f.changeEvent+o,function(t){jQuery(n).off(o),t.type===f.errorEvent?r(new Error("unknown fullscreen request error")):e()}),i[f.requestFn](t)})}function o(){var e=this;if(!f||"function"!=typeof document[f.exitFn])return Promise.reject(new TypeError("fullscreen not supported"));if(!a())return Promise.reject(new TypeError("fullscreen mode not active"));if(p())return document[f.exitFn]();var t=".Fullscreen_exitFullscreen";return new Promise(function(r,n){jQuery(document).off(t).one(""+f.errorEvent+t+" "+f.changeEvent+t,function(a){jQuery(e).off(t),a.type===f.errorEvent?n(new Error("unknown fullscreen exit error")):r()}),document[f.exitFn]()})}function s(e,t){return a()?o():i(e,t)}function u(t,r){if(f){var n=e(r);$(n).on(f.changeEvent,t)}}function l(t,r){if(f){var n=e(r);t?$(n).off(f.changeEvent,t):$(n).off(f.changeEvent)}}function c(t,r){if(f){var n=e(r);$(n).on(f.errorEvent,t)}}function d(t,r){if(f){var n=e(r);t?$(n).off(f.errorEvent,t):$(n).off(f.errorEvent)}}var f=function(){try{return Object.freeze([{isEnabled:"fullscreenEnabled",element:"fullscreenElement",requestFn:"requestFullscreen",exitFn:"exitFullscreen",changeEvent:"fullscreenchange",errorEvent:"fullscreenerror"},{isEnabled:"webkitFullscreenEnabled",element:"webkitFullscreenElement",requestFn:"webkitRequestFullscreen",exitFn:"webkitExitFullscreen",changeEvent:"webkitfullscreenchange",errorEvent:"webkitfullscreenerror"},{isEnabled:"mozFullScreenEnabled",element:"mozFullScreenElement",requestFn:"mozRequestFullScreen",exitFn:"mozCancelFullScreen",changeEvent:"mozfullscreenchange",errorEvent:"mozfullscreenerror"},{isEnabled:"msFullscreenEnabled",element:"msFullscreenElement",requestFn:"msRequestFullscreen",exitFn:"msExitFullscreen",changeEvent:"MSFullscreenChange",errorEvent:"MSFullscreenError"}].find(function(e){return e.isEnabled in document}))}catch(e){}return undefined}(),p=function(){function e(){if(null!==t)return t;if(t=!1,f)try{var e=document.exitFullscreen();e.catch(function(){}),t=e instanceof Promise}catch(e){}return t}var t=null;return e}();return Object.freeze(Object.defineProperties({},{vendor:{get:t},element:{get:r},isEnabled:{value:n},isFullscreen:{value:a},request:{value:i},exit:{value:o},toggle:{value:s},onChange:{value:u},offChange:{value:l},onError:{value:c},offError:{value:d}}))}(),_ref3=function(){function e(e){for(var t=e.cloneNode(!0),r=document.createDocumentFragment(),n=void 0;null!==(n=t.firstChild);){if(n.nodeType===Node.ELEMENT_NODE)switch(n.nodeName.toUpperCase()){case"BR":case"DIV":case"P":r.appendChild(document.createTextNode(" "))}r.appendChild(n)}return r.textContent}function t(e){if("object"!==(void 0===e?"undefined":_typeof(e))||null===e)return e;if(e instanceof String)return String(e);if(e instanceof Number)return Number(e);if(e instanceof Boolean)return Boolean(e)
